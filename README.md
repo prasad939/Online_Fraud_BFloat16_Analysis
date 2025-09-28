@@ -32,7 +32,7 @@
 
 | Precision | Runtime (per epoch) | Memory Usage | CPU Utilization | Model Accuracy |
 |-----------|----------------------|---------------|-----------------|----------------|
-| FP32      | 120s                 | 6 GB          | High            | 97.8%          |
-| BFloat16  | 75s                  | 3 GB          | Moderate        | 97.6%          |
+| FP32      | s                 | 12.28 GB          | High            | %          |
+| BFloat16  | 5s                  | 11.98 GB          | Moderate        | %          |
 
 BFloat16 achieves **~40% faster runtime** and **50% lower memory usage** with only a negligible drop in accuracy.
