@@ -4,6 +4,8 @@
 - BFloat16 (Brain Floating Point 16-bit) is a reduced-precision floating-point format widely used in modern accelerators (TPUs, NVIDIA Tensor Cores).
 -It uses 16 bits instead of 32 (FP32) while keeping the same exponent range, enabling large-scale deep learning without major accuracy loss.
 
+Dataset link: https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
+
 ## Benefits of BFloat16
 - Lower Memory Utilization: Uses 50% less memory per number compared to FP32, enabling larger batch sizes and models.
 
