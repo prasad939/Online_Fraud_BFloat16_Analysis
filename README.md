@@ -34,7 +34,9 @@ Dataset link: https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-det
 
 | Precision | Runtime (per epoch) | Memory Usage | CPU Utilization | Model Accuracy |
 |-----------|----------------------|---------------|-----------------|----------------|
-| FP32      | s                 | 12.28 GB          | High            | %          |
-| BFloat16  | 5s                  | 11.98 GB          | Moderate        | %          |
+| FP32      | 903s                 | 14.27 GB          | High            | 98.6%          |
+| BFloat16  | 1044s                  | 10.98 GB          | Moderate        | 96.0%          |
 
-BFloat16 achieves **~40% faster runtime** and **50% lower memory usage** with only a negligible drop in accuracy.
+BFloat16 improves scalability with reduced memory and CPU utilization, ideal for large fraud detection datasets.
+
+FP32 offers higher accuracy and faster runtime but at the cost of higher memory and CPU usage.
